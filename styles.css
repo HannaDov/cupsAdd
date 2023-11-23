@@ -1,0 +1,146 @@
+//минимальный сброс стилей
+
+* {
+margin:0;//внешний отступ
+padding:0;//внутренний отступ
+box-sizing:border-box;
+}
+section {
+background:#EFF2F9;
+height:100vh;
+}
+
+.card {
+Width:1170px;
+Height:800px;
+background:#FFF;
+box-shadow: 20px 20px 40px 0px #515B7540;
+padding: 60x 0px 70px 0px;
+}
+.product-image-block {
+border-right: 2px solid rgba(20,20,20,0.15);
+width:540px;
+}
+.preview {
+width:80px;
+height:80px;
+}
+.previewActive {
+box-shadow: 20px 20px 40px 0px #515B7540;
+
+}
+.product-info-block{
+
+}
+.mainTitle{
+font-family: Montserrat;
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 0.01em;
+color: #141414E5;
+margin-bottom:5px;
+}
+.subtitle{
+display:inline-block;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #14141466;
+
+
+}
+.text{
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #141414B2;
+margin-top:60px;
+}
+.colors{
+margin-top:65px;
+}
+.title{
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #14141466;
+
+}
+.circle{
+width:16px;
+height:16px;
+border-radius:50%;
+}
+.blue{
+background-color:#013C7D;
+}
+.green{
+background-color:#63CBA7;
+}
+.red{
+background-color:#D52F29;
+}
+.black{
+background-color:#141414;
+}
+.yellow{
+background-color:#F2C723;
+}
+.selected{
+box-shadow: 2px 2px 6px 0px #515B7540;
+width: 30px;
+height: 30px;
+border-radius:50%;
+}
+.quantityAndPrice{
+margin-top:65px;
+}
+.quantity{
+Width:83px;
+Height:63px;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #141414CC;
+border:none;
+appearance:none;
+background:url('./assecs/arrow-botton.svg');
+background-repeat:no-repeat;
+background-position:right 0 top 50%;
+}
+.price{
+font-family: Rubik;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #141414CC;
+text-transform:uppercase;
+
+}
+.addButton{
+width:510px;
+height:70px;
+background: #141414;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+outline:none;
+border:none;
+margin-top:75px;
+}
